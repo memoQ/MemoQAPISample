@@ -1,0 +1,10 @@
+**/_data
+**/_publish
+**/node_modules
+**/bin
+**/obj
+
+project.lock.json
+*.xproj.user
+.vs
+*.gz
