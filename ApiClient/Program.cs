@@ -244,9 +244,9 @@ namespace ApiClient
             finally
             {
                 if (security != null) security.Dispose();
-                if (fileManager != null) security.Dispose();
-                if (tm != null) security.Dispose();
-                if (serverProject != null) security.Dispose();
+                if (fileManager != null) fileManager.Dispose();
+                if (tm != null) tm.Dispose();
+                if (serverProject != null) serverProject.Dispose();
             }
         }
 
